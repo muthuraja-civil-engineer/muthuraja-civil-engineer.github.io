@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Muthuraja R | Senior Civil & Structural Engineer</title>
+  <meta name="description" content="Portfolio of Muthuraja R - Senior Civil & Structural Engineer with 10+ years specializing in major highway viaducts, bridges, bored piling, and infrastructure megaprojects across UAE, Oman, and India." />
+  <meta name="keywords" content="Civil Engineer, Structural Engineer, Bridge Construction, Viaducts, Piling, Rigid Pavement, STAAD.Pro, AutoCAD, Revit, Infrastructure, Dubai, Oman, India" />
+  <meta name="author" content="Muthuraja R" />
+  <meta name="theme-color" content="#0a0a0c" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Muthuraja R | Senior Civil & Structural Engineer" />
+  <meta property="og:description" content="10+ years turning architectural blueprints and calculations into resilient bridges, viaducts, and highway infrastructure." />
+  <meta property="og:image" content="assets/image (11).png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+
+  <!-- Modular Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- GSAP & ScrollTrigger via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div class="scroll-progress-bar" id="scroll-progress"></div>
+
+  <!-- Floating Pill Navbar -->
+  <header class="nav-wrapper" id="nav-wrapper">
+    <nav class="nav-pill" aria-label="Main Navigation">
+      <a href="#hero" class="nav-brand" aria-label="Muthuraja R - Back to top">
+        <span class="nav-brand-dot"></span>
+        <span>MUTHURAJA<span style="color: var(--accent-primary);">.</span>R</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="assets/Old resume MUTHURAJA-CV-.pdf" target="_blank" class="btn btn-secondary btn-sm">
+          <i data-lucide="download" style="width: 14px; height: 14px;"></i>
+          <span>Resume</span>
+        </a>
+        <button type="button" class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- 1. Hero Section (Prominently displays Muthuraja's photograph) -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left: Professional Profile & Bio -->
+          <div class="hero-text-col">
+            <div class="hero-status-pill">
+              <span class="status-indicator"></span>
+              <span>SENIOR CIVIL & STRUCTURAL ENGINEER · INFRASTRUCTURE</span>
+            </div>
+
+            <h1 class="hero-headline">
+              Muthuraja R
+              <span class="hero-headline-sub">Bridges, Viaducts & Highway Infrastructure</span>
+            </h1>
+
+            <p class="hero-subheadline">
+              Over 10 years of experience executing major infrastructure across the UAE, Oman, and India. Specializing in 300M+ viaduct superstructures, bored cast-in-situ piling (up to 1500mm dia), precast girder launching, and rigid pavement.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#work" class="btn btn-primary">
+                <span>View Projects</span>
+                <i data-lucide="arrow-down" class="btn-icon" style="width: 15px; height: 15px;"></i>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Get in Touch</span>
+                <i data-lucide="mail" class="btn-icon" style="width: 15px; height: 15px;"></i>
+              </a>
+              <a href="assets/Old resume MUTHURAJA-CV-.pdf" target="_blank" class="btn btn-accent">
+                <i data-lucide="file-text" style="width: 15px; height: 15px;"></i>
+                <span>Download CV</span>
+              </a>
+            </div>
+
+            <!-- Engineering Key Metrics Bar -->
+            <div class="hero-metrics-bar" id="hero-metrics-container">
+              <!-- Populated by js/main.js -->
+            </div>
+          </div>
+
+          <!-- Right: Real Photo Displayed Immediately On Opening -->
+          <div class="hero-photo-wrapper">
+            <div class="hero-photo-frame">
+              <img 
+                src="assets/image (11).png" 
+                alt="Muthuraja R - Senior Civil & Structural Engineer" 
+                class="hero-photo-img"
+              />
+              <div class="hero-photo-badge">
+                <div>
+                  <div class="hero-badge-title">Muthuraja R</div>
+                  <div class="hero-badge-sub">B.E. Civil Engineering · Anna University</div>
+                </div>
+                <a href="https://www.linkedin.com/in/muthuraja-civil" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary); font-size: 0.78rem; display: flex; align-items: center; gap: 4px;">
+                  <span>LinkedIn</span>
+                  <i data-lucide="external-link" style="width: 13px; height: 13px;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Trusted Partners Marquee -->
+    <section class="marquee-section" id="partners" aria-label="Clients and Authorities">
+      <div class="marquee-track" id="marquee-track">
+        <!-- Infinite marquee track populated by js/marquee.js -->
+      </div>
+    </section>
+
+    <!-- 3. Latest Projects Bento Grid -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">FEATURED WORK</span>
+          <h2 class="section-title">Major Infrastructure Projects</h2>
+          <p class="section-subtitle">
+            From 300-meter post-tensioned viaducts to multi-lane desert highway corridors, delivered with rigorous engineering standards.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="filter-tabs">
+          <button type="button" class="filter-tab active" data-filter="all">All Projects</button>
+          <button type="button" class="filter-tab" data-filter="bridges">Viaducts & Bridges</button>
+          <button type="button" class="filter-tab" data-filter="highways">Highway Infrastructure</button>
+          <button type="button" class="filter-tab" data-filter="design">Structural Analysis & BIM</button>
+        </div>
+
+        <!-- Bento Grid Container -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Dynamically populated by js/main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Services Section -->
+    <section class="section" id="services" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">EXPERTISE</span>
+          <h2 class="section-title">Engineering Capabilities</h2>
+          <p class="section-subtitle">
+            End-to-end technical oversight bridging mathematical models, software detailing, and physical site construction.
+          </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid" id="services-grid">
+          <!-- Populated by js/main.js -->
+        </div>
+
+        <!-- Software Stack Showcase -->
+        <div class="software-stack-container">
+          <div class="software-stack-header">
+            <span class="section-badge" style="margin-bottom: 6px;">SOFTWARE & STANDARDS</span>
+            <h3>Digital Engineering Stack</h3>
+            <p style="color: var(--text-secondary); font-size: 0.88rem;">
+              Proficient across structural analysis, 3D modeling, and scheduling suites aligned with MORTH, IRC, and international codes.
+            </p>
+          </div>
+          <div class="software-grid" id="software-grid">
+            <!-- Populated by js/main.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Work History & Career Timeline -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">CAREER HISTORY</span>
+          <h2 class="section-title">Work Experience & Milestones</h2>
+          <p class="section-subtitle">
+            A continuous progression of technical responsibility across tier-one contractors and government highway authorities.
+          </p>
+        </div>
+
+        <div class="timeline-section-inner">
+          <div class="timeline" id="timeline-container">
+            <!-- Populated by js/main.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Client Testimonials -->
+    <section class="section" id="testimonials" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">ENDORSEMENTS</span>
+          <h2 class="section-title">Client & Consultant Feedback</h2>
+          <p class="section-subtitle">
+            Observations from project directors and lead consultants across major road and bridge contracts.
+          </p>
+        </div>
+
+        <div class="testimonials-grid" id="testimonials-grid">
+          <!-- Populated by js/main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Interactive FAQs -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">FAQ</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Insights on engineering methodologies, site quality assurance, and project coordination.
+          </p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+          <!-- Populated by js/main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Clean, Minimalist Contact & Footer -->
+    <footer class="footer-section" id="contact">
+      <div class="container">
+        
+        <div class="footer-contact-hero">
+          <span class="section-badge">GET IN TOUCH</span>
+          <h2 class="footer-massive-title">Let’s discuss your next infrastructure project.</h2>
+          <p style="color: var(--text-secondary); max-width: 540px; margin: 0 auto; font-size: 0.95rem;">
+            Available for senior structural and civil engineering roles, project management, and infrastructure consulting across the Gulf and internationally.
+          </p>
+          <div class="footer-cta-wrapper">
+            <a href="mailto:muthuraja.civil05@gmail.com" class="btn btn-primary">
+              <i data-lucide="mail" style="width: 15px; height: 15px;"></i>
+              <span>muthuraja.civil05@gmail.com</span>
+            </a>
+            <a href="tel:+919585655285" class="btn btn-secondary">
+              <i data-lucide="phone" style="width: 15px; height: 15px;"></i>
+              <span>+91 9585655285</span>
+            </a>
+            <a href="https://www.linkedin.com/in/muthuraja-civil" target="_blank" rel="noopener noreferrer" class="btn btn-accent">
+              <i data-lucide="linkedin" style="width: 15px; height: 15px;"></i>
+              <span>LinkedIn Profile</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-grid">
+          <!-- Brand Column -->
+          <div class="footer-brand-col">
+            <div class="footer-brand-title">MUTHURAJA R</div>
+            <p class="footer-brand-desc">
+              Civil Engineer specializing in bridges, viaducts, heavy foundation piling, and highway infrastructure across UAE, Oman, and India.
+            </p>
+          </div>
+
+          <!-- Quick Navigation -->
+          <div>
+            <h4 class="footer-col-title">Navigation</h4>
+            <ul class="footer-links">
+              <li><a href="#hero" class="footer-link">Home</a></li>
+              <li><a href="#work" class="footer-link">Projects</a></li>
+              <li><a href="#services" class="footer-link">Capabilities</a></li>
+              <li><a href="#experience" class="footer-link">Experience</a></li>
+              <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+              <li><a href="#faq" class="footer-link">FAQ</a></li>
+            </ul>
+          </div>
+
+          <!-- Expertise -->
+          <div>
+            <h4 class="footer-col-title">Disciplines</h4>
+            <ul class="footer-links">
+              <li><span class="footer-link">PSC Viaduct Launching</span></li>
+              <li><span class="footer-link">Bored Piling (1500mm dia)</span></li>
+              <li><span class="footer-link">Rigid Pavement & MOTC</span></li>
+              <li><span class="footer-link">STAAD.Pro & FEA Modeling</span></li>
+              <li><span class="footer-link">Civil 3D Road Corridors</span></li>
+            </ul>
+          </div>
+
+          <!-- Direct Contact -->
+          <div>
+            <h4 class="footer-col-title">Contact Information</h4>
+            <div class="footer-contact-item">
+              <i data-lucide="mail" style="width: 15px; height: 15px;"></i>
+              <a href="mailto:muthuraja.civil05@gmail.com" class="footer-link">muthuraja.civil05@gmail.com</a>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="phone" style="width: 15px; height: 15px;"></i>
+              <a href="tel:+919585655285" class="footer-link">+91 9585655285</a>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="phone" style="width: 15px; height: 15px;"></i>
+              <a href="tel:+96897603126" class="footer-link">+968 97603126 (Oman)</a>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="map-pin" style="width: 15px; height: 15px;"></i>
+              <span>Sharjah, UAE / Muscat, Oman</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>&copy; 2026 Muthuraja R. Civil & Structural Engineering.</div>
+          <div>Static Architecture · GitHub Pages Compatible</div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Floating Back To Top Button -->
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+    <i data-lucide="arrow-up" style="width: 18px; height: 18px;"></i>
+  </button>
+
+  <!-- Main ES6 Module Script -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
